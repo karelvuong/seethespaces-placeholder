@@ -34,6 +34,30 @@
   }
 }
 
+
+// Sections
+// -------------------------
+
+.section {
+  &--md {
+    & + .section {
+      margin-top: 80px;
+    }
+  }
+
+  &--sm {
+    & + .section {
+      margin-top: 40px;
+    }
+  }
+
+  &--xs {
+    & + .section {
+      margin-top: 20px;
+    }
+  }
+}
+
 // Floats
 // -------------------------
 

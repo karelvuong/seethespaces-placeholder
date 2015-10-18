@@ -71,10 +71,6 @@ activate :google_analytics do |ga|
   ga.minify = true
 end
 
-
-# Synta Highlighting
-activate :syntax, :line_numbers => true
-
 # Pretty URLs
 activate :directory_indexes
 
