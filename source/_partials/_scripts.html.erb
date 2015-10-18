@@ -1,0 +1,6 @@
+<%= google_analytics_universal_tag %>
+<%= javascript_include_tag  "//code.jquery.com/jquery-1.11.3.min.js", "main" %>
+
+<% current_page.data.append_js.each do |jsfile|%>
+  <%= javascript_include_tag jsfile %>
+<% end if current_page.data.append_js %>

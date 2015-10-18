@@ -1,0 +1,36 @@
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title><%= current_page.data.title ? current_page.data.title + ' &ndash; ' : '' %>KW Spaces</title>
+  <meta name="description" content="<%= current_page.data.metadata_description ? current_page.data.metadata_description : 'I am a product designer at heart and front-end developer on the side.' %>">
+  <meta name="keywords" content="<%= current_page.data.metadata_keywords ? current_page.data.metadata_keywords : 'Karel, Vuong, product designer, product design, product, interface, visual, interaction, design, ux, ui, toronto, tech, startup' %>">
+
+  <meta name="copyright" content="2013 to Present">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta http-equiv="cleartype" content="on">
+
+  <link rel="canonical" href="http://kwspaces.com<%= current_page.url %>">
+
+  <meta property="og:title" content="<%= current_page.data.metadata_title ? current_page.data.metadata_title : 'KW Spaces' %>"/>
+  <meta property="og:site_name" content="KW Spaces"/>
+  <meta property="og:description" content="<%= current_page.data.metadata_description ? current_page.data.metadata_description : 'I am a designer at heart and a developer on the side.' %>"/>
+  <meta property="og:type" content="<%= current_page.data.metadata_og_type ? current_page.data.metadata_og_type : 'Profile' %>"/>
+  <meta property="og:url" content="http://karel.ca<%= current_page.url %>"/>
+  <meta property="og:image" content="<%= current_page.data.metadata_image ? current_page.data.metadata_image : current_page.data.metadata_image_facebook ? current_page.data.metadata_image_facebook : '/assets/images/share_facebook.jpg' %>"/>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@karelvuong">
+  <meta name="twitter:creator" content="@karelvuong">
+  <meta name="twitter:title" content="<%= current_page.data.metadata_title ? current_page.data.metadata_title : 'KW Spaces' %>">
+  <meta name="twitter:description" content="<%= current_page.data.metadata_description ? current_page.data.metadata_description : 'I am a designer at heart and a developer on the side.' %>">
+  <meta name="twitter:image" content="<%= current_page.data.metadata_image ? current_page.data.metadata_image : current_page.data.metadata_image_twitter ? current_page.data.metadata_image_twitter : '/assets/images/share_twitter.jpg' %>">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <%= stylesheet_link_tag "main" %>
+</head>

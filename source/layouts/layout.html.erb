@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+  <%= partial "_partials/head" %>
+
+  <body class="<%= page_classes %>">
+    <%= yield %>
+
+    <%= partial "_partials/footer/main" %>
+    <script async type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <%= partial "_partials/scripts" %>
+  </body>
+</html>
