@@ -1,0 +1,24 @@
+{
+  "spaces": [
+    {
+      "name": "Communitech",
+      "url": "/kitchener-waterloo/communitech/",
+      "accent": "communitech--blue"
+    },
+    {
+      "name": "Igloo Software",
+      "url": "/kitchener-waterloo/igloo-software/",
+      "accent": "igloo--green"
+    },
+    {
+      "name": "Vidyard",
+      "url": "/kitchener-waterloo/vidyard/",
+      "accent": "vidyard--green"
+    },
+    {
+      "name": "Sweet Tooth",
+      "url": "/kitchener-waterloo/sweet-tooth/",
+      "accent": "sweet-tooth"
+    }
+  ]
+}

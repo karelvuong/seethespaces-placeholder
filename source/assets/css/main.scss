@@ -1,20 +1,20 @@
-// Core variables and mixins
-@import "variables";
-@import "mixins";
-@import "functions";
-
-// Reset and dependencies
-@import "normalize";
-
 // Partials
+@import "partials/variables";
 @import "partials/fonts";
+@import "partials/mixins";
+@import "partials/grid";
+@import "partials/normalize";
+@import "partials/base";
+@import "partials/animations";
 
-// Core
-@import "base";
-@import "type";
-@import "utilities";
-@import "icons";
-@import "grid";
+// Utilities
+@import "utilities/colours";
+@import "utilities/images";
+@import "utilities/layout";
+@import "utilities/text";
+
+// Colours
+@import "functions/colours";
 
 // Lib
 @import "lib/zoom";
@@ -24,7 +24,9 @@
 @import "elements/forms";
 
 // Components
-@import "components/hero";
-
-// Colours
-@import "colours";
+@import "components/header";
+@import "components/footer";
+@import "components/block-hero";
+@import "components/block-selection";
+@import "components/block-list";
+@import "components/tabs";

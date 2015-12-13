@@ -1,4 +1,40 @@
 //
+// Scaffolding
+// --------------------------------------------------
+
+
+// Reset the box-sizing
+//
+// Heads up! This reset may cause conflicts with some third-party widgets.
+// For recommendations on resolving such conflicts, see
+// http://getbootstrap.com/getting-started/#third-box-sizing
+* {
+  &,
+  &::before,
+  &::after {
+    @include box-sizing(border-box);
+  }
+}
+
+// Body reset
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+  background-color: $body-bg;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+//
 // Typography
 // --------------------------------------------------
 
@@ -58,7 +94,7 @@ p {
   margin: 0;
 
   & + p {
-    margin: ($line-height-computed / 2) 0 0;
+    margin-top: 24px;
   }
 }
 
@@ -100,23 +136,20 @@ mark,
   padding: .1em;
 }
 
-// Alignment
-.text-left           { text-align: left; }
-.text-right          { text-align: right; }
-.text-center         { text-align: center; }
-.text-justify        { text-align: justify; }
-.text-nowrap         { white-space: nowrap; }
+.list {
+  margin: 0;
+  padding: 0;
 
-// Decoration
-.t-underline {
-  text-decoration: none;
-  border-bottom: 1px solid;
+  &--inline {
+    li {
+      display: inline-block;
+    }
+  }
+
+  &--unstyled {
+    list-style: none;
+  }
 }
-
-// Transformation
-.t-lowercase      { text-transform: lowercase; }
-.t-uppercase      { text-transform: uppercase; }
-.t-capitalize     { text-transform: capitalize; }
 
 
 // Misc
@@ -153,7 +186,6 @@ abbr[data-original-title] {
 }
 .initialism {
   font-size: 90%;
-  @extend .t-uppercase;
 }
 
 // Blockquotes
@@ -209,4 +241,79 @@ address {
   margin-bottom: $line-height-computed;
   font-style: normal;
   line-height: $line-height-base;
+}
+
+// Reset fonts for relevant elements
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+// Links
+
+a {
+  color: $link-color;
+  cursor: pointer;
+  text-decoration: $link-decoration;
+
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
+
+  &:focus {
+  }
+}
+
+
+// Figures
+figure {
+  margin: 0;
+
+  img {
+    height: auto;
+    width: 100%;
+    max-width: 1000px
+  }
+}
+
+
+// Lists
+
+.list {
+  padding: 0;
+  margin: 0;
+
+  &--inline {
+    list-style: none;
+
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+
+// Images
+
+img {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+// Horizontal rules
+
+hr {
+  margin-top:    $line-height-computed;
+  margin-bottom: $line-height-computed;
+  border: 0;
+  border-top: 1px solid $hr-border;
 }

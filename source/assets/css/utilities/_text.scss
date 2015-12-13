@@ -1,0 +1,30 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+
+// Text
+// -------------------------
+
+.text {
+  &--light   { font-weight: 100; }
+  &--book    { font-weight: 400; }
+  &--bold    { font-weight: 700; }
+  &--black   { font-weight: 900; }
+
+  &--underline {
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
+
+  // Transformation
+  &--lowercase      { text-transform: lowercase; }
+  &--uppercase      { text-transform: uppercase; }
+  &--capitalize     { text-transform: capitalize; }
+
+  &--left           { text-align: left; }
+  &--right          { text-align: right; }
+  &--center         { text-align: center; }
+  &--justify        { text-align: justify; }
+  &--nowrap         { white-space: nowrap; }
+}

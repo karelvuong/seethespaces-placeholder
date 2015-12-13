@@ -1,0 +1,49 @@
+.block-hero {
+  &-title {
+    font-size: 40px;
+
+    & + .block-hero-subtitle {
+      margin-top: 6px;
+    }
+  }
+
+  &-subtitle {
+    font-size: 16px;
+
+    & + .block-hero-form,
+    & + .block-hero-body {
+      margin-top: 12px;
+    }
+  }
+
+  &-body {}
+
+  &-form {
+    &-label {
+      display: block;
+
+      & + .block-hero-form-input-group {
+        margin-top: 12px;
+      }
+    }
+
+    &-input {
+      height: 40px;
+      min-width: 240px;
+
+      &-group {
+
+      }
+    }
+
+    &-btn {
+      height: 40px;
+
+      margin-left: -4px;
+    }
+
+    & + .block-hero-social {
+      margin-top: 12px;
+    }
+  }
+}

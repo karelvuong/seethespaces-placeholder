@@ -1,0 +1,885 @@
+{
+  "letters": [
+    {
+      "letter": "B",
+      "spaces": [
+        {
+          "name": "bitHound",
+          "name_list": "bitHound",
+          "address": "42 College St.",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/bithound/",
+          "accent": "bithound--red",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "C",
+      "spaces": [
+        {
+          "name": "Clearpath Robotics",
+          "name_list": "Clearpath Robotics",
+          "address": "1425 Strasburg Rd.",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/clearpath-robotics/",
+          "accent": "clearpath-robotics--yellow",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Communitech",
+          "name_list": "Communitech",
+          "address": "151 Charles St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/communitech/",
+          "accent": "communitech--blue",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "spaces": [
+        {
+          "name": "D2L",
+          "name_list": "D2L",
+          "address": "151 Charles St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/d2l/",
+          "accent": "d2l--orange",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "F",
+      "spaces": [
+        {
+          "name": "FunnelCake",
+          "name_list": "FunnelCake",
+          "address": "151 Charles St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/funnelcake/",
+          "accent": "funnelcake--red",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "G",
+      "spaces": [
+        {
+          "name": "Google",
+          "name_list": "Google",
+          "address": "51 Breithaupt St.",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/google/",
+          "accent": "google--blue",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Green Brick Labs",
+          "name_list": "Green Brick Labs",
+          "address": "305 King St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/green-brick-labs/",
+          "accent": "green-brick-labs--green",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "I",
+      "spaces": [
+        {
+          "name": "Igloo Software",
+          "name_list": "Igloo Software",
+          "address": "55 King St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/igloo-software/",
+          "accent": "igloo--green",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "K",
+      "spaces": [
+        {
+          "name": "Kik",
+          "name_list": "Kik",
+          "address": "420 Weber St. N",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/kik/",
+          "accent": "kik--green",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "M",
+      "spaces": [
+        {
+          "name": "MappedIn",
+          "name_list": "MappedIn",
+          "address": "305 King St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/mappedin/",
+          "accent": "mappedin--yellow",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "N",
+      "spaces": [
+        {
+          "name": "NetSuite Waterloo",
+          "name_list": "NetSuite Waterloo",
+          "address": "55 King St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/netsuite/",
+          "accent": "netsuite--green",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "P",
+      "spaces": [
+        {
+          "name": "Plasticity Labs",
+          "name_list": "Plasticity Labs",
+          "address": "151 Charles St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/plasticity/",
+          "accent": "plasticity-labs--red",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PiinPoint",
+          "name_list": "PiinPoint",
+          "address": "151 Charles St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/piinpoint/",
+          "accent": "piinpoint--blue",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pivotal Labs",
+          "name_list": "Pivotal Labs",
+          "address": "1 Toronto St.",
+          "region": "Toronto",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/toronto/pivotal-labs/",
+          "accent": "pivotal-labs--teal",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "S",
+      "spaces": [
+        {
+          "name": "Shopify",
+          "name_list": "Shopify (Kitchener-Waterloo)",
+          "address": "151 Charles St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/shopify/",
+          "accent": "shopify--green",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        /*{
+          "name": "Shopify",
+          "name_list": "Shopify (Ottawa)",
+          "address": "150 Elgin St.",
+          "region": "Ottawa",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/ottawa/shopify/",
+          "accent": "shopify--green",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shopify",
+          "name_list": "Shopify (Toronto)",
+          "address": "80 Spadina Ave.",
+          "region": "Toronto",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/toronto/shopify/",
+          "accent": "shopify--green",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },*/
+        {
+          "name": "Square",
+          "name_list": "Square",
+          "address": "305 King St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/kitchener-waterloo/square/",
+          "accent": "square--blue",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sweet Tooth",
+          "name_list": "Sweet Tooth",
+          "address": "305 King St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "accent": "sweet-tooth",
+          "url": "/kitchener-waterloo/sweet-tooth/",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "T",
+      "spaces": [
+        {
+          "name": "TD<br class='visible-lg'> Innovation Lab",
+          "name_list": "TD Innovation Lab",
+          "address": "151 Charles St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "accent": "td--green",
+          "url": "/kitchener-waterloo/td-innovation-lab/",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Thalmic Labs",
+          "name_list": "Thalmic Labs",
+          "address": "24 Charles St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "accent": "thalmic-labs--blue",
+          "url": "/kitchener-waterloo/thalmic-labs/",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Thompson Reuters",
+          "name_list": "Thompson Reuters",
+          "address": "151 Charles St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "accent": "thompson-reuters--orange",
+          "url": "/kitchener-waterloo/thompson-reuters/",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "letter": "V",
+      "spaces": [
+        {
+          "name": "Vidyard",
+          "name_list": "Vidyard",
+          "address": "119 King St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "accent": "vidyard--green",
+          "url": "/kitchener-waterloo/vidyard/",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Voltera",
+          "name_list": "Voltera",
+          "address": "151 Charles St. W",
+          "region": "Kitchener-Waterloo",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "accent": "voltera--green",
+          "url": "/kitchener-waterloo/voltera/",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

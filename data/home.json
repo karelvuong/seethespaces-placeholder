@@ -1,3 +1,14 @@
 {
-  "enable_promo": true
+  "letters": [
+    {
+      "letter": "I",
+      "spaces": [
+        {
+          "name": "Igloo Software",
+          "address": "55 King St. W",
+          "description": "Igloo Software is an intranet company headquartered in Kitchener Waterloo."
+        }
+      ]
+    }
+  ]
 }

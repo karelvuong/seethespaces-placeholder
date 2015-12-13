@@ -1,0 +1,70 @@
+{
+  "regions": [
+    {
+      "name": "Kitchener-Waterloo",
+      "spaces": [
+        {
+          "name": "Communitech",
+          "url": "/kitchener-waterloo/communitech/",
+          "accent": "communitech--blue"
+        },
+        {
+          "name": "Google",
+          "url": "/kitchener-waterloo/google/",
+          "accent": "google--blue"
+        },
+        {
+          "name": "Igloo Software",
+          "url": "/kitchener-waterloo/igloo-software/",
+          "accent": "igloo--green"
+        },
+        {
+          "name": "Shopify",
+          "url": "/kitchener-waterloo/shopify/",
+          "accent": "shopify--green"
+        },
+        {
+          "name": "Sweet Tooth",
+          "url": "/kitchener-waterloo/sweet-tooth/",
+          "accent": "sweet-tooth"
+        },
+        {
+          "name": "Vidyard",
+          "url": "/kitchener-waterloo/vidyard/",
+          "accent": "vidyard--green"
+        }
+      ]
+    },
+    {
+      "name": "Montreal",
+      "spaces": [
+      ]
+    },
+    {
+      "name": "Ottawa",
+      "spaces": [
+        {
+          "name": "Shopify",
+          "url": "/ottawa/shopify/",
+          "accent": "shopify--green"
+        }
+      ]
+    },
+    {
+      "name": "Toronto",
+      "spaces": [
+        {
+          "name": "Shopify",
+          "url": "/toronto/shopify/",
+          "accent": "shopify--green"
+        }
+      ]
+    },
+    {
+      "name": "Vancouver",
+      "spaces": [
+
+      ]
+    }
+  ]
+}

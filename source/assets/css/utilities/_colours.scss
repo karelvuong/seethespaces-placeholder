@@ -1,13 +1,20 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+
+// Colours
+// -------------------------
+
 @each $color, $clr in $colors {
   .accent-#{$color} {
-    .accent-bg {
-      background-color: $clr;
-
-      &-10 {
-        background-color: rgba($clr, 0.1);
-      }
-    }
+    .accent-bg { background-color: $clr; }
     .accent-clr { color: $clr; }
+    .accent-clr-hover { &:hover { color: $clr; }}
+    .accent-clr-link {
+      color: $clr;
+
+      &:hover { color: rgba($clr, 0.9); }}
     .accent-btn {
       background-color: $clr;
       border-color: $clr;
@@ -29,7 +36,7 @@
     &--after::after { background-color: $clr; }
   }
 
-  .link-#{$color} {
+  .clr-link-#{$color} {
     color: $clr;
 
     &:focus,

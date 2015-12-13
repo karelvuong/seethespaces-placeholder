@@ -1,0 +1,19 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+
+// Images
+// -------------------------
+
+// Responsive images (ensure images don't scale beyond their parents)
+.img--responsive {
+  display: block;
+  max-width: 100%; // Part 1: Set a maximum relative to the parent
+  height: auto; // Part 2: Scale the height according to the width, otherwise
+}
+
+// Perfect circle
+.img--circle {
+  border-radius: 100%; // set radius in percents
+}

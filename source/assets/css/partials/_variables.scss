@@ -5,6 +5,30 @@
 //== Colors
 //
 $colors: (
+  "bithound--red":         #C41230,
+  "bridgit--teal":         #07999F,
+  "clearpath-robotics--yellow":     #F4D000,
+  "communitech--blue":     #0066CC,
+  "communitech--pink":     #F11889,
+  "d2l--orange":           #E87511,
+  "funnelcake--red":       #F3545D,
+  "google--blue":          #00A1F1,
+  "green-brick-labs--green": #99CC33,
+  "igloo--green":          #00AA66,
+  "kik--green":            #84BA33,
+  "mappedin--yellow":      #FDAC09,
+  "netsuite--green":       #76BC48,
+  "plasticity-labs--red":  #F04F55,
+  "piinpoint--blue":       #007EE5,
+  "pivotal-labs--teal":    #059A91,
+  "shopify--green":        #7AB55C,
+  "square--blue":          #2996CC,
+  "sweet-tooth":           #C82254,
+  "td--green":             #34B233,
+  "thalmic-labs--blue":    #00BBDE,
+  "vidyard--green":        #70AE44,
+  "voltera--green":        #79CE00,
+
   "blue":                 #3887BE,
   "white":                #FFFFFF,
   "lightgrey":            #FAFAFA,
@@ -126,7 +150,7 @@ $screen-md-max:              ($screen-lg-min - 1);
 //** Number of columns in the grid.
 $grid-columns:              12;
 //** Padding between columns. Gets divided in half for the left and right.
-$grid-gutter-width:         40px;
+$grid-gutter-width:         24px;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
 $grid-float-breakpoint:     $screen-sm-min;
