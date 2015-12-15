@@ -144,6 +144,12 @@ mark,
     li {
       display: inline-block;
     }
+
+    &--spacious {
+      li:not(:last-child) {
+        margin-right: 12px;
+      }
+    }
   }
 
   &--unstyled {
@@ -275,12 +281,6 @@ a {
 // Figures
 figure {
   margin: 0;
-
-  img {
-    height: auto;
-    width: 100%;
-    max-width: 1000px
-  }
 }
 
 
@@ -303,9 +303,6 @@ figure {
 // Images
 
 img {
-  height: auto;
-  vertical-align: middle;
-  width: 100%;
 }
 
 

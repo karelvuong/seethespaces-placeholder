@@ -14,7 +14,8 @@
     .accent-clr-link {
       color: $clr;
 
-      &:hover { color: rgba($clr, 0.9); }}
+      &:hover,
+      &:focus { color: rgba($clr, 0.9); }}
     .accent-btn {
       background-color: $clr;
       border-color: $clr;

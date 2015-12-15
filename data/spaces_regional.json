@@ -5,32 +5,32 @@
       "spaces": [
         {
           "name": "Communitech",
-          "url": "/kitchener-waterloo/communitech/",
+          "url": "/in/kitchener-waterloo/communitech/",
           "accent": "communitech--blue"
         },
         {
           "name": "Google",
-          "url": "/kitchener-waterloo/google/",
+          "url": "/in/kitchener-waterloo/google/",
           "accent": "google--blue"
         },
         {
           "name": "Igloo Software",
-          "url": "/kitchener-waterloo/igloo-software/",
+          "url": "/in/kitchener-waterloo/igloo-software/",
           "accent": "igloo--green"
         },
         {
           "name": "Shopify",
-          "url": "/kitchener-waterloo/shopify/",
+          "url": "/in/kitchener-waterloo/shopify/",
           "accent": "shopify--green"
         },
         {
           "name": "Sweet Tooth",
-          "url": "/kitchener-waterloo/sweet-tooth/",
+          "url": "/in/kitchener-waterloo/sweet-tooth/",
           "accent": "sweet-tooth"
         },
         {
           "name": "Vidyard",
-          "url": "/kitchener-waterloo/vidyard/",
+          "url": "/in/kitchener-waterloo/vidyard/",
           "accent": "vidyard--green"
         }
       ]
@@ -45,7 +45,7 @@
       "spaces": [
         {
           "name": "Shopify",
-          "url": "/ottawa/shopify/",
+          "url": "/in/ottawa/shopify/",
           "accent": "shopify--green"
         }
       ]
@@ -55,7 +55,7 @@
       "spaces": [
         {
           "name": "Shopify",
-          "url": "/toronto/shopify/",
+          "url": "/in/toronto/shopify/",
           "accent": "shopify--green"
         }
       ]

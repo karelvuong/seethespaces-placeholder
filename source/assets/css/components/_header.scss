@@ -12,6 +12,13 @@
     font-weight: 700;
     line-height: 20px;
     margin: 10px 0;
+
+    @include transition(all ease-in-out .1s);
+
+    &:hover,
+    &:focus {
+      color: rgba(#FFFFFF, 0.8);
+    }
   }
 
   &-link {
@@ -29,6 +36,42 @@
       color: #000000;
       font-weight: 700;
     }
+  }
+
+  &-menu {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 4px 0;
+    padding: 0 12px;
+
+    @include transition(all ease-in-out .1s);
+
+    &:focus,
+    &:hover {
+      color: #FFFFFF;
+    }
+
+    & + .header-logo {
+      margin-left: 12px;
+    }
+  }
+
+  &-social {
+    li:not(:last-child) {
+      margin-right: 6px;
+    }
+
+    .list a {
+      display: inline-block;
+      padding: 4px 12px;
+      margin: 6px 0;
+      line-height: 20px;
+    }
+
+    @include transition(all ease-in-out .1s);
   }
 
   //
@@ -50,23 +93,39 @@
   }
 
   &--space {
-    border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000;
-  }
-    &-btn {
-      background-color: #000000;
-      color: #FFFFFF;
-      display: inline-block;
-      height: 30px;
-      line-height: 30px;
-      margin: 4px 0;
-      padding: 0 12px;
+    &.header--space--fixed {
+      .header--space-inner {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
 
-      @include transition(all ease-in-out .1s);
+        .header-social {
+          opacity: 1;
+          visibility: visible;
+        }
 
-      &:focus,
-      &:hover {
-        color: #FFFFFF;
+        .header-logo {
+          color: #000000;
+          visibility: visible;
+        }
       }
     }
+
+    &-inner {
+      background-color: #FFFFFF;
+      border-bottom: 1px solid #000000;
+      height: 40px;
+      width: 100%;
+
+      .header-logo {
+        visibility: hidden;
+      }
+
+      .header-social {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  }
 }

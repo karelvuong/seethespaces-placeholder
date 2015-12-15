@@ -1,12 +1,18 @@
 .block-hero {
+  &-name,
   &-title {
     font-size: 40px;
 
     & + .block-hero-subtitle {
       margin-top: 12px;
     }
+
+    & + .block-hero-address {
+      margin-top: 6px;
+    }
   }
 
+  &-address,
   &-subtitle {
     font-size: 16px;
 
@@ -14,6 +20,14 @@
     & + .block-hero-body {
       margin-top: 12px;
     }
+
+    & + .block-hero-region {
+      margin-top: 6px;
+    }
+  }
+
+  &-region {
+
   }
 
   &-body {}
