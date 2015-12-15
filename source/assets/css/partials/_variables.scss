@@ -162,13 +162,13 @@ $grid-float-breakpoint-max: ($grid-float-breakpoint - 1);
 //
 //## Define the maximum width of `.container` for different screen sizes.
 
-$container-tablet:             (720px/* + $grid-gutter-width*/);
+$container-tablet:             (81.5%);
 $container-sm:                 $container-tablet;
 
-$container-desktop:            (960px/* + $grid-gutter-width*/);
+$container-desktop:            (85%);
 $container-md:                 $container-desktop;
 
-$container-large-desktop:      (1120px/* + $grid-gutter-width*/);
+$container-large-desktop:      (88%);
 $container-lg:                 $screen-lg-min;
 
 

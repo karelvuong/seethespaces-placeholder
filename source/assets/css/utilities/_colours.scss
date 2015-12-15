@@ -21,8 +21,8 @@
       color: #fff;
 
       &:hover {
-        background-color: darken($clr, 10%);
-        border-color: darken($clr, 10%);
+        background-color: darken($clr, 2%);
+        border-color: darken($clr, 2%);
       }
     }
 
@@ -70,8 +70,8 @@
 
     &:focus,
     &:hover {
-      background-color: darken($clr, 10%);
-      border-color: darken($clr, 10%);
+      background-color: darken($clr, 2%);
+      border-color: darken($clr, 2%);
       color: #ffffff;
     }
   }
@@ -95,8 +95,8 @@
 
     &:focus,
     &:hover {
-      background-color: darken($clr, 10%);
-      border-color: darken($clr, 10%);
+      background-color: darken($clr, 2%);
+      border-color: darken($clr, 2%);
       color: #ffffff;
     }
   }

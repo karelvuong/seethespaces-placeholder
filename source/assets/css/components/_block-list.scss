@@ -13,6 +13,11 @@
     margin-right: 200px;
     text-align: center;
     width: 60px;
+
+    @media (max-width: $screen-xs-max) {
+      float: none;
+      margin-right: 0;
+    }
   }
 
   &-items {
@@ -55,6 +60,10 @@
     }
 
     &-media {
+      @media (max-width: $screen-md-max) {
+        margin-top: 24px;
+      }
+
       &-row {
         & + .block-list-item-media-row {
           margin-top: 24px;

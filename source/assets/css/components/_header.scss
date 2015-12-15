@@ -1,10 +1,8 @@
 .header {
   height: 40px;
 
-  li {
-    & + li {
-      margin-left: 12px;
-    }
+  li:not(:last-child) {
+    margin-right: 12px;
   }
 
   &-logo {

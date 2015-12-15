@@ -24,7 +24,7 @@
           <% data.featured.spaces.each_slice(2) do |row| %>
           <div class="block-selection-body-row row">
             <% row.each do |space| %>
-            <div class="col-sm-6">
+            <div class="col-sm--xs col-sm-6">
               <a class="block-selection-body-item pad--lg--y pad--sm--x bg-<%= space.accent %> text--center" href="<%= space.url %>">
                 <h1 class="block-selection-body-item-name"><%= space.name %></h1>
               </a>
@@ -94,7 +94,7 @@
             <% section.spaces.each do |space| %>
             <div class="block-list-item accent-<%= space.accent %>">
               <div class="row">
-                <div class="col-md-6 col-lg-4">
+                <div class="col-lg-4">
                   <header class="block-list-item-header">
                     <a class="block-list-item-header-name accent-clr-hover" href="<%= space.url %>"><%= space.name %></a>
                     <p class="block-list-item-header-address"><%= space.address %></p>
@@ -102,17 +102,19 @@
                   </header>
 
                   <div class="block-list-item-body">
-                    <p>
-                      <%= space.description %>
+                    <p><%= space.description %></p>
+
+                    <p class="text--right visible-xs">
+                      <a class="btn btn--lg accent-btn" href="#">See the space</a>
                     </p>
                   </div>
                 </div>
 
-                <div class="block-list-item-media col-sm-6 col-lg-8">
-                  <% space.media.each do |media| %>
+                <div class="block-list-item-media col-lg-8">
+                  <% space.media.each do |media, i| %>
                   <div class="block-list-item-media-row row">
                     <% media.images.length.times do |column| %>
-                    <div class="col-sm-<%= 12 / media.images.length %>">
+                    <div class="col-sm--xs col-sm-<%= 12 / media.images.length %>">
                       <div class="block-list-item-media-item">
                         <img src="<%= media.images[column].url %>" alt="" />
                       </div>

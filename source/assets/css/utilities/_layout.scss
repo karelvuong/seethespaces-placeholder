@@ -35,6 +35,8 @@
   &--xs {
     &--y { padding-top: 24px; padding-bottom: 24px; }
     &--x { padding-right: 24px; padding-left: 24px; }
+
+    &--t { padding-top: 24px; }
   }
 }
 
@@ -58,6 +60,18 @@
   &--xs {
     & + .section {
       margin-top: 20px;
+    }
+  }
+}
+
+// Columns
+// -------------------------
+.col-sm {
+  &--xs {
+    @media (max-width: $screen-xs-max) {
+      & + & {
+        padding-top: 24px;
+      }
     }
   }
 }
