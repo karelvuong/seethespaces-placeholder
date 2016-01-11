@@ -1,0 +1,37 @@
+.media {
+  @media (max-width: $screen-md-max) {
+    margin-top: 24px;
+  }
+
+  &-row {
+    & + .media-row {
+      margin-top: 24px;
+    }
+  }
+
+  &-figure {
+    &-image {
+      & + .media-figure-caption {
+        margin-top: 6px;
+      }
+    }
+
+    &-caption {
+
+    }
+  }
+
+  &-link {
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 12px;
+    text-decoration: none;
+    transform: translateX(16px);
+
+    @include transition(transform ease-in-out .15s);
+
+    &:hover {
+      transform: translateX(0);
+    }
+  }
+}

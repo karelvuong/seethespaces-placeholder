@@ -5,38 +5,39 @@
 //== Colors
 //
 $colors: (
-  "bithound--red":         #C41230,
-  "bridgit--teal":         #07999F,
-  "clearpath-robotics--yellow":     #F4D000,
-  "communitech--blue":     #0066CC,
-  "communitech--pink":     #F11889,
-  "d2l--orange":           #E87511,
-  "facebook--blue":        #3B5998,
-  "funnelcake--red":       #F3545D,
-  "google--blue":          #00A1F1,
-  "green-brick-labs--green": #99CC33,
-  "igloo--green":          #00AA66,
-  "kik--green":            #84BA33,
-  "magnet-forensics--blue":      #4896D1,
-  "mappedin--yellow":      #FDAC09,
-  "netsuite--green":       #76BC48,
-  "plasticity-labs--red":  #F04F55,
-  "piinpoint--blue":       #007EE5,
-  "pivotal-labs--teal":    #059A91,
-  "shopify--green":        #7AB55C,
-  "square--blue":          #2996CC,
-  "sweet-tooth":           #C82254,
-  "td--green":             #34B233,
-  "thalmic-labs--blue":    #00BBDE,
-  "twitter--blue":         #55ACEE,
-  "vidyard--green":        #70AE44,
-  "voltera--green":        #79CE00,
-  "blue":                 #3887BE,
-  "white":                #FFFFFF,
-  "lightgrey":            #FAFAFA,
-  "grey":                 #777A7A,
-  "darkgrey":             #333333,
-  "black":                #000000
+  "bithound--red":                #C41230,
+  "bridgit--teal":                #07999F,
+  "clearpath-robotics--yellow":   #F4D000,
+  "communitech--blue":            #0066CC,
+  "communitech--pink":            #F11889,
+  "d2l--orange":                  #E87511,
+  "facebook--blue":               #3B5998,
+  "funnelcake--red":              #F3545D,
+  "google--blue":                 #00A1F1,
+  "green-brick-labs--green":      #99CC33,
+  "igloo--green":                 #00AA66,
+  "kik--green":                   #84BA33,
+  "magnet-forensics--blue":       #4896D1,
+  "mappedin--yellow":             #FDAC09,
+  "netsuite--green":              #76BC48,
+  "plasticity-labs--red":         #F04F55,
+  "piinpoint--blue":              #007EE5,
+  "pivotal-labs--teal":           #059A91,
+  "sandvine--green":              #3FB55F,
+  "shopify--green":               #7AB55C,
+  "square--blue":                 #2996CC,
+  "sweet-tooth":                  #C82254,
+  "td--green":                    #34B233,
+  "thalmic-labs--blue":           #00BBDE,
+  "twitter--blue":                #55ACEE,
+  "vidyard--green":               #70AE44,
+  "voltera--green":               #79CE00,
+  "blue":                         #3887BE,
+  "white":                        #FFFFFF,
+  "lightgrey":                    #FAFAFA,
+  "grey":                         #777A7A,
+  "darkgrey":                     #333333,
+  "black":                        #000000
 );
 
 
@@ -59,7 +60,7 @@ $headings-secondary-color: #96999a;
 $mark-bg:               #FFF3B3;
 
 //** Global textual link color.
-$link-color:                  map-get($colors, "blue");
+$link-color:                  map-get($colors, "black");
 $link-decoration:             none;
 $link-hover-color:            darken($link-color, 15%);
 $link-hover-color-light:      lighten($link-color, 15%);

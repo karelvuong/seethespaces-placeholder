@@ -2,12 +2,18 @@
   "letters": [
     {
       "letter": "B",
+      "regions": [
+        "kitchener-waterloo"
+      ],
       "spaces": [
         {
           "name": "bitHound",
           "name_list": "bitHound",
           "address": "42 College St.",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/bithound/",
           "accent": "bithound--red",
@@ -41,12 +47,19 @@
     },
     {
       "letter": "C",
+      "regions": [
+        "kitchener-waterloo",
+        "montreal"
+      ],
       "spaces": [
         {
           "name": "Clearpath Robotics",
           "name_list": "Clearpath Robotics",
           "address": "1425 Strasburg Rd.",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/clearpath-robotics/",
           "accent": "clearpath-robotics--yellow",
@@ -80,10 +93,50 @@
           "name": "Communitech",
           "name_list": "Communitech",
           "address": "151 Charles St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/communitech/",
           "accent": "communitech--blue",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Crew",
+          "name_list": "Crew",
+          "address": "151 Charles St. W",
+          "region": {
+            "name": "Montreal",
+            "url": "/in/montreal/"
+          },
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/in/montreal/Crew/",
+          "accent": "crew--black",
           "media": [
             {
               "images": [
@@ -114,12 +167,18 @@
     },
     {
       "letter": "D",
+      "regions": [
+        "kitchener-waterloo"
+      ],
       "spaces": [
         {
           "name": "D2L",
           "name_list": "D2L",
           "address": "151 Charles St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/d2l/",
           "accent": "d2l--orange",
@@ -153,12 +212,18 @@
     },
     {
       "letter": "F",
+      "regions": [
+        "kitchener-waterloo"
+      ],
       "spaces": [
         {
           "name": "FunnelCake",
           "name_list": "FunnelCake",
           "address": "151 Charles St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/funnelcake/",
           "accent": "funnelcake--red",
@@ -192,12 +257,18 @@
     },
     {
       "letter": "G",
+      "regions": [
+        "kitchener-waterloo"
+      ],
       "spaces": [
         {
           "name": "Google",
           "name_list": "Google",
           "address": "51 Breithaupt St.",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/google/",
           "accent": "google--blue",
@@ -231,7 +302,10 @@
           "name": "Green Brick Labs",
           "name_list": "Green Brick Labs",
           "address": "305 King St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/green-brick-labs/",
           "accent": "green-brick-labs--green",
@@ -265,12 +339,18 @@
     },
     {
       "letter": "I",
+      "regions": [
+        "kitchener-waterloo"
+      ],
       "spaces": [
         {
           "name": "Igloo Software",
           "name_list": "Igloo Software",
           "address": "55 King St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/igloo-software/",
           "accent": "igloo--green",
@@ -304,12 +384,18 @@
     },
     {
       "letter": "K",
+      "regions": [
+        "kitchener-waterloo"
+      ],
       "spaces": [
         {
           "name": "Kik",
           "name_list": "Kik",
           "address": "420 Weber St. N",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/kik/",
           "accent": "kik--green",
@@ -342,13 +428,64 @@
       ]
     },
     {
+      "letter": "L",
+      "regions": [
+        "toronto"
+      ],
+      "spaces": [
+        {
+          "name": "LinkedIn",
+          "name_list": "LinkedIn",
+          "address": "Unknown",
+          "region": {
+            "name": "Toronto",
+            "url": "/in/toronto/"
+          },
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/in/toronto/linkedin/",
+          "accent": "linkedin--blue",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "letter": "M",
+      "regions": [
+        "kitchener-waterloo"
+      ],
       "spaces": [
         {
           "name": "Magnet Forensics",
           "name_list": "Magnet Forensics",
           "address": "156 Columbia St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/magnet-forensics/",
           "accent": "magnet-forensics--blue",
@@ -382,7 +519,10 @@
           "name": "MappedIn",
           "name_list": "MappedIn",
           "address": "305 King St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/mappedin/",
           "accent": "mappedin--yellow",
@@ -416,12 +556,18 @@
     },
     {
       "letter": "N",
+      "regions": [
+        "kitchener-waterloo"
+      ],
       "spaces": [
         {
           "name": "NetSuite Waterloo",
           "name_list": "NetSuite Waterloo",
           "address": "55 King St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/netsuite/",
           "accent": "netsuite--green",
@@ -455,12 +601,19 @@
     },
     {
       "letter": "P",
+      "regions": [
+        "kitchener-waterloo",
+        "toronto"
+      ],
       "spaces": [
         {
           "name": "Plasticity Labs",
           "name_list": "Plasticity Labs",
           "address": "151 Charles St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/plasticity/",
           "accent": "plasticity-labs--red",
@@ -494,7 +647,10 @@
           "name": "PiinPoint",
           "name_list": "PiinPoint",
           "address": "151 Charles St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/piinpoint/",
           "accent": "piinpoint--blue",
@@ -528,7 +684,10 @@
           "name": "Pivotal Labs",
           "name_list": "Pivotal Labs",
           "address": "1 Toronto St.",
-          "region": "Toronto",
+          "region": {
+            "name": "Toronto",
+            "url": "/in/toronto/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/toronto/pivotal-labs/",
           "accent": "pivotal-labs--teal",
@@ -562,12 +721,57 @@
     },
     {
       "letter": "S",
+      "regions": [
+        "kitchener-waterloo",
+        "ottawa",
+        "toronto"
+      ],
       "spaces": [
+        {
+          "name": "Sandvine",
+          "name_list": "Sandvine",
+          "address": "410 Albert Street",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/in/kitchener-waterloo/sandvine/",
+          "accent": "sandvine--green",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "Shopify",
           "name_list": "Shopify (Kitchener-Waterloo)",
           "address": "151 Charles St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/shopify/",
           "accent": "shopify--green",
@@ -597,11 +801,14 @@
             }
           ]
         },
-        /*{
+        {
           "name": "Shopify",
           "name_list": "Shopify (Ottawa)",
           "address": "150 Elgin St.",
-          "region": "Ottawa",
+          "region": {
+            "name": "Ottawa",
+            "url": "/in/ottawa/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/ottawa/shopify/",
           "accent": "shopify--green",
@@ -635,7 +842,10 @@
           "name": "Shopify",
           "name_list": "Shopify (Toronto)",
           "address": "80 Spadina Ave.",
-          "region": "Toronto",
+          "region": {
+            "name": "Toronto",
+            "url": "/in/toronto/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/toronto/shopify/",
           "accent": "shopify--green",
@@ -664,12 +874,15 @@
               ]
             }
           ]
-        },*/
+        },
         {
           "name": "Square",
           "name_list": "Square",
           "address": "305 King St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "url": "/in/kitchener-waterloo/square/",
           "accent": "square--blue",
@@ -703,7 +916,10 @@
           "name": "Sweet Tooth",
           "name_list": "Sweet Tooth",
           "address": "305 King St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "accent": "sweet-tooth",
           "url": "/in/kitchener-waterloo/sweet-tooth/",
@@ -737,12 +953,18 @@
     },
     {
       "letter": "T",
+      "regions": [
+        "kitchener-waterloo"
+      ],
       "spaces": [
         {
           "name": "TD<br class='visible-lg'> Innovation Lab",
           "name_list": "TD Innovation Lab",
           "address": "151 Charles St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "accent": "td--green",
           "url": "/in/kitchener-waterloo/td-innovation-lab/",
@@ -776,7 +998,10 @@
           "name": "Thalmic Labs",
           "name_list": "Thalmic Labs",
           "address": "24 Charles St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "accent": "thalmic-labs--blue",
           "url": "/in/kitchener-waterloo/thalmic-labs/",
@@ -810,7 +1035,10 @@
           "name": "Thompson Reuters",
           "name_list": "Thompson Reuters",
           "address": "151 Charles St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "accent": "thompson-reuters--orange",
           "url": "/in/kitchener-waterloo/thompson-reuters/",
@@ -844,12 +1072,18 @@
     },
     {
       "letter": "V",
+      "regions": [
+        "kitchener-waterloo"
+      ],
       "spaces": [
         {
           "name": "Vidyard",
           "name_list": "Vidyard",
           "address": "119 King St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "accent": "vidyard--green",
           "url": "/in/kitchener-waterloo/vidyard/",
@@ -883,7 +1117,10 @@
           "name": "Voltera",
           "name_list": "Voltera",
           "address": "151 Charles St. W",
-          "region": "Kitchener-Waterloo",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "accent": "voltera--green",
           "url": "/in/kitchener-waterloo/voltera/",

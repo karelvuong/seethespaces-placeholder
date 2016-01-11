@@ -6,6 +6,7 @@
   }
 
   &-letter {
+    background-color: #FFFFFF;
     float: left;
     font-size: 80px;
     font-weight: 700;
@@ -33,6 +34,7 @@
         font-weight: 700;
         line-height: 1.215;
         margin: 0;
+        text-decoration: none;
 
         & + .block-list-item-header-address {
           margin-top: 6px;
@@ -56,31 +58,6 @@
     }
 
     &-body {
-    }
-
-    &-media {
-      @media (max-width: $screen-md-max) {
-        margin-top: 24px;
-      }
-
-      &-row {
-        & + .block-list-item-media-row {
-          margin-top: 24px;
-        }
-      }
-
-      &-link {
-        display: inline-block;
-        font-weight: 500;
-        margin-top: 12px;
-        transform: translateX(16px);
-
-        @include transition(transform ease-in-out .15s);
-
-        &:hover {
-          transform: translateX(0);
-        }
-      }
     }
 
     & + .block-list-item {

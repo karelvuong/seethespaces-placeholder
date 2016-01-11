@@ -1,3 +1,13 @@
 .footer {
+  &-logo {
+    & + .footer-attribution {
+      margin-top: 6px;
+    }
+  }
 
+  &-attribution {
+    & + .footer-social {
+      margin-top: 12px;
+    }
+  }
 }

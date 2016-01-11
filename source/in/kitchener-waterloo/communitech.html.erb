@@ -1,20 +1,22 @@
 ---
 title: "Communitech"
 address: "55 King St. W"
-region: "Kitchener-Waterloo"
+region:
+  name: "Kitchener-Waterloo"
+  url: "/in/kitchener-waterloo/"
 description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-layout: "space"
+layout: space
 sections:
   - id: ""
     text: ""
-share:
-  twitter:
-    text:
+related:
+  - name: "Shopify"
+    accent: "shopify--green"
+    url: "/in/kitchener-waterloo/shopify"
+  - name: "TD Innovation Labs"
+    accent: "td--green"
+    url: "/in/kitchener-waterloo/td-innovation-labs"
 ---
-
-<%= partial "_partials/blocks/space-hero" %>
-
-<%= partial "_partials/header/space-nav" %>
 
 <main class="pad--md--y">
   <section class="section--md section text--center">
@@ -24,32 +26,32 @@ share:
       </header>
 
       <div class="section-body">
-        <div class="block-list-item-media-row row">
+        <div class="media-row row">
           <div class="col-sm--xs col-sm-12">
-            <div class="block-list-item-media-item">
-              <figure>
-                <img class="img--responsive" src="http://placehold.it/1280x720" alt="" />
-                <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</figcaption>
+            <div class="media-item">
+              <figure class="media-figure">
+                <img class="media-figure-image img--full" src="http://placehold.it/1920x1080" alt="" />
+                <figcaption class="media-figure-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</figcaption>
               </figure>
             </div>
           </div>
         </div>
 
-        <div class="block-list-item-media-row row">
+        <div class="media-row row">
           <div class="col-sm--xs col-sm-6">
-            <div class="block-list-item-media-item">
-              <figure>
-                <img class="img--responsive" src="http://placehold.it/1280x720" alt="" />
-                <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</figcaption>
+            <div class="media-item">
+              <figure class="media-figure">
+                <img class="media-figure-image img--full" src="http://placehold.it/1280x720" alt="" />
+                <figcaption class="media-figure-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</figcaption>
               </figure>
             </div>
           </div>
 
           <div class="col-sm--xs col-sm-6">
-            <div class="block-list-item-media-item">
-              <figure>
-                <img class="img--responsive" src="http://placehold.it/1280x720" alt="" />
-                <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</figcaption>
+            <div class="media-item">
+              <figure class="media-figure">
+                <img class="media-figure-image img--full" src="http://placehold.it/1280x720" alt="" />
+                <figcaption class="media-figure-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</figcaption>
               </figure>
             </div>
           </div>
@@ -160,3 +162,19 @@ share:
     </div>
   </section>
 </main>
+
+<div class="pad--md--y bg-lightgrey">
+  <div class="container text--center">
+    <header class="section-header">
+      <h1><%= current_page.data.title %> is also home to...</h1>
+    </header>
+
+    <div class="section-body section-body--comfy">
+      <% current_page.data.related.each do |space| %>
+      <a class="block-related-item btn-<%= space.accent %> text--center" href="<%= space.url %>">
+        <%= space.name %>
+      </a>
+      <% end %>
+    </div>
+  </div>
+</div>

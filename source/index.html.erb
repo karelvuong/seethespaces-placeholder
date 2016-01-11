@@ -2,7 +2,7 @@
 
 <%= partial "_partials/header/home" %>
 
-<section class="block-selection bg-lightgrey pad--sm--y section">
+<section class="block-selection bg-lightgrey section--md section pad--sm--y">
   <header class="block-selection-header">
     <div class="container text--center">
       <div class="row">
@@ -20,6 +20,9 @@
   <div class="block-selection-body">
     <div class="container">
       <div class="tab-content">
+        <%#
+        Featured
+        %>
         <div role="tabpanel" class="tab-pane fade in active" id="featured">
           <% data.featured.spaces.each_slice(2) do |row| %>
           <div class="block-selection-body-row row">
@@ -34,47 +37,50 @@
           <% end %>
         </div>
 
+        <%#
+        By Region
+        %>
         <div role="tabpanel" class="tab-pane fade" id="by-region">
-          <div class="block-selection-list">
-            <div class="row">
-              <% data.spaces_regional.regions.each_slice(1) do |col| %>
-              <div class="col-sm-3">
-                <% col.each do |section| %>
-                <div class="section--xs section">
-                  <p class="block-selection-list-letter"><%= section.name %></p>
+          <div class="row">
+            <% data.spaces_regional.regions.each_slice(1) do |col| %>
+            <div class="col-sm-3">
+              <% col.each do |section| %>
+              <div class="section--xs section">
+                <p class="block-selection-heading"><%= section.name %></p>
+                <a class="block-selection-link" href="<%= section.url %>"><img class="icon icon--left" src="<%= images_dir %>/map.svg" width="10" height="10">View map</a>
 
-                  <% section.spaces.each do |space| %>
-                  <ul class="list list--unstyled accent-<%= space.accent %>">
-                    <li><a class="accent-clr-hover" href="<%= space.url %>"><%= space.name %></a></li>
-                  </ul>
-                  <% end %>
-                </div>
+                <% section.spaces.each do |space| %>
+                <ul class="block-selection-list list list--unstyled accent-<%= space.accent %>">
+                  <li><a class="accent-clr-hover" href="<%= space.url %>"><%= space.name %></a></li>
+                </ul>
                 <% end %>
               </div>
               <% end %>
             </div>
+            <% end %>
           </div>
         </div>
 
+        <%#
+        All
+        %>
         <div role="tabpanel" class="tab-pane fade" id="all">
-          <div class="block-selection-list">
-            <div class="row">
-              <% data.spaces.letters.each_slice(4) do |col| %>
-              <div class="col-sm-3">
-                <% col.each do |section| %>
-                <div class="section--xs section">
-                  <p class="block-selection-list-letter"><%= section.letter %></p>
+          <div class="row">
+            <% data.spaces.letters.each_slice(4) do |col| %>
+            <div class="col-sm-3">
+              <% col.each do |section| %>
+              <div class="section--xs section">
+                <p class="block-selection-heading"><%= section.letter %></p>
 
-                  <% section.spaces.each do |space| %>
-                  <ul class="list list--unstyled accent-<%= space.accent %>">
-                    <li><a class="accent-clr-hover" href="<%= space.url %>"><%= space.name_list %></a></li>
-                  </ul>
-                  <% end %>
-                </div>
+                <% section.spaces.each do |space| %>
+                <ul class="block-selection-list list list--unstyled accent-<%= space.accent %>">
+                  <li><a class="accent-clr-hover" href="<%= space.url %>"><%= space.name_list %></a></li>
+                </ul>
                 <% end %>
               </div>
               <% end %>
             </div>
+            <% end %>
           </div>
         </div>
       </div>
@@ -82,60 +88,58 @@
   </div>
 </section>
 
-<section class="block-list section--md pad--md--y section">
+<section class="block-list section--md section">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <% data.spaces.letters.each do |section| %>
-        <div class="block-list-section">
-          <p id="<%= section.letter %>"class="block-list-letter"><%= section.letter %></p>
+    <% data.spaces.letters.each do |section| %>
+    <div id="<%= section.letter %>" class="block-list-section">
+      <div class="block-list-letter">
+        <p class="block-list-letter-text"><%= section.letter %></p>
+      </div>
 
-          <div class="block-list-items">
-            <% section.spaces.each do |space| %>
-            <div class="block-list-item accent-<%= space.accent %>">
-              <div class="row">
-                <div class="col-lg-4">
-                  <header class="block-list-item-header">
-                    <a class="block-list-item-header-name accent-clr-hover" href="<%= space.url %>"><%= space.name %></a>
-                    <p class="block-list-item-header-address"><%= space.address %></p>
-                    <p class="block-list-item-header-region"><%= space.region %></p>
-                  </header>
+      <div class="block-list-items">
+        <% section.spaces.each do |space| %>
+        <div class="block-list-item accent-<%= space.accent %>">
+          <div class="row">
+            <div class="col-lg-4">
+              <header class="block-list-item-header">
+                <a class="block-list-item-header-name accent-clr-hover" href="<%= space.url %>"><%= space.name %></a>
+                <p class="block-list-item-header-address"><%= space.address %></p>
+                <p class="block-list-item-header-region"><img class="icon icon--left" src="<%= images_dir %>/map.svg" width="10" height="10"> <a href="<%= space.region.url %>"><%= space.region.name %></a></p>
+              </header>
 
-                  <div class="block-list-item-body">
-                    <p><%= space.description %></p>
+              <div class="block-list-item-body">
+                <p><%= space.description %></p>
 
-                    <p class="text--right visible-xs">
-                      <a class="btn btn--lg accent-btn" href="#">See the space</a>
-                    </p>
+                <p class="text--right visible-xs">
+                  <a class="btn btn--lg accent-btn" href="#">See the space</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="media col-lg-8">
+              <% space.media.each do |media, i| %>
+              <div class="media-row row">
+                <% media.images.length.times do |column| %>
+                <div class="col-sm--xs col-sm-<%= 12 / media.images.length %>">
+                  <div class="media-item">
+                    <img class="img--full" src="<%= media.images[column].url %>" alt="" />
                   </div>
                 </div>
+                <% end %>
+              </div>
+              <% end %>
 
-                <div class="block-list-item-media col-lg-8">
-                  <% space.media.each do |media, i| %>
-                  <div class="block-list-item-media-row row">
-                    <% media.images.length.times do |column| %>
-                    <div class="col-sm--xs col-sm-<%= 12 / media.images.length %>">
-                      <div class="block-list-item-media-item">
-                        <img src="<%= media.images[column].url %>" alt="" />
-                      </div>
-                    </div>
-                    <% end %>
-                  </div>
-                  <% end %>
-
-                  <div class="row">
-                    <div class="col-sm-12 text--right">
-                      <a class="block-list-item-media-link accent-clr-link" href="<%= space.url %>">See <%= (space.name.end_with?("s") ? space.name_list + "'" : space.name_list + "'s") %> entire space &rarr;</a>
-                    </div>
-                  </div>
+              <div class="row">
+                <div class="col-sm-12 text--right">
+                  <a class="media-link accent-clr-link" href="<%= space.url %>">See <%= (space.name.end_with?("s") ? space.name_list + "'" : space.name_list + "'s") %> entire space &rarr;</a>
                 </div>
               </div>
             </div>
-            <% end %>
           </div>
         </div>
         <% end %>
       </div>
     </div>
+    <% end %>
   </div>
 </section>

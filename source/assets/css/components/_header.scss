@@ -5,6 +5,16 @@
     margin-right: 12px;
   }
 
+  &-container {
+    &--left {
+      float: left;
+    }
+
+    &--right {
+      float: right;
+    }
+  }
+
   &-logo {
     color: #FFFFFF;
     display: inline-block;
@@ -12,6 +22,7 @@
     font-weight: 700;
     line-height: 20px;
     margin: 10px 0;
+    text-decoration: none;
 
     @include transition(all ease-in-out .1s);
 
@@ -21,20 +32,24 @@
     }
   }
 
+  &-links {
+    .active {
+      .header-link {
+        color: #000000;
+      }
+    }
+  }
+
   &-link {
     color: rgba(#000000, 0.6);
     display: inline-block;
     line-height: 20px;
     margin: 10px 0;
+    text-decoration: none;
 
     &:hover,
     &:focus {
       color: rgba(#000000, 0.8);
-    }
-
-    &.active {
-      color: #000000;
-      font-weight: 700;
     }
   }
 
@@ -46,6 +61,7 @@
     line-height: 30px;
     margin: 4px 0;
     padding: 0 12px;
+    text-decoration: none;
 
     @include transition(all ease-in-out .1s);
 
@@ -85,26 +101,38 @@
       &:focus {
         color: rgba(#FFFFFF, 0.8);
       }
+    }
 
-      &.active {
-        color: #FFFFFF;
+    .header-links {
+      .active {
+        .header-link {
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+
+  &.header--fixed {
+    .header-inner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1;
+
+      .header-social {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .header-logo {
+        visibility: visible;
       }
     }
   }
 
   &--space {
-    &.header--space--fixed {
-      .header--space-inner {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 1;
-
-        .header-social {
-          opacity: 1;
-          visibility: visible;
-        }
-
+    &.header--fixed {
+      .header-inner {
         .header-logo {
           color: #000000;
           visibility: visible;
@@ -112,7 +140,7 @@
       }
     }
 
-    &-inner {
+    .header-inner {
       background-color: #FFFFFF;
       border-bottom: 1px solid #000000;
       height: 40px;

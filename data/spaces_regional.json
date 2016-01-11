@@ -2,6 +2,7 @@
   "regions": [
     {
       "name": "Kitchener-Waterloo",
+      "url": "/in/kitchener-waterloo/",
       "spaces": [
         {
           "name": "Communitech",
@@ -37,11 +38,13 @@
     },
     {
       "name": "Montreal",
+      "url": "/in/montreal/",
       "spaces": [
       ]
     },
     {
       "name": "Ottawa",
+      "url": "/in/ottawa/",
       "spaces": [
         {
           "name": "Shopify",
@@ -52,6 +55,7 @@
     },
     {
       "name": "Toronto",
+      "url": "/in/toronto/",
       "spaces": [
         {
           "name": "Shopify",
@@ -62,6 +66,7 @@
     },
     {
       "name": "Vancouver",
+      "url": "/in/vancouver/",
       "spaces": [
 
       ]

@@ -263,14 +263,14 @@ textarea {
 // Links
 
 a {
+  border-bottom: 1px;
   color: $link-color;
   cursor: pointer;
-  text-decoration: $link-decoration;
 
   &:hover,
   &:focus {
     color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
+    text-decoration: none;
   }
 
   &:focus {

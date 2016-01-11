@@ -1,0 +1,65 @@
+---
+title: Montreal
+id: montreal
+layout: region
+---
+
+<section class="block-list section--md pad--md--y section">
+  <div class="container">
+    <% data.spaces.letters.each do |section| %>
+    <% if current_page.data.id.in?(section.regions) %>
+    <div id="<%= section.letter %>" class="block-list-section">
+      <div class="block-list-letter">
+        <p class="block-list-letter-text"><%= section.letter %></p>
+      </div>
+
+      <div class="block-list-items">
+        <% section.spaces.each do |space| %>
+        <% if space.region.name == current_page.data.title %>
+        <div class="block-list-item accent-<%= space.accent %>">
+          <div class="row">
+            <div class="col-lg-4">
+              <header class="block-list-item-header">
+                <a class="block-list-item-header-name accent-clr-hover" href="<%= space.url %>"><%= space.name %></a>
+                <p class="block-list-item-header-address"><%= space.address %></p>
+                <p class="block-list-item-header-region"><img class="icon icon--left" src="<%= images_dir %>/map.svg" width="10" height="10"> <a href="<%= space.region.url %>"><%= space.region.name %></a></p>
+              </header>
+
+              <div class="block-list-item-body">
+                <p><%= space.description %></p>
+
+                <p class="text--right visible-xs">
+                  <a class="btn btn--lg accent-btn" href="#">See the space</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="media col-lg-8">
+              <% space.media.each do |media, i| %>
+              <div class="media-row row">
+                <% media.images.length.times do |column| %>
+                <div class="col-sm--xs col-sm-<%= 12 / media.images.length %>">
+                  <div class="media-item">
+                    <img class="img--full" src="<%= media.images[column].url %>" alt="" />
+                  </div>
+                </div>
+                <% end %>
+              </div>
+              <% end %>
+
+              <div class="row">
+                <div class="col-sm-12 text--right">
+                  <a class="media-link accent-clr-link" href="<%= space.url %>">See <%= (space.name.end_with?("s") ? space.name_list + "'" : space.name_list + "'s") %> entire space &rarr;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <% end %>
+        <% end %>
+      </div>
+    </div>
+    <% end %>
+    <% end %>
+  </div>
+</section>
