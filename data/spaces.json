@@ -516,6 +516,43 @@
           ]
         },
         {
+          "name": "Manulife<br class='visible-lg'> RED Lab",
+          "name_list": "Manulife RED Lab",
+          "address": "151 Charles St. W",
+          "region": {
+            "name": "Kitchener-Waterloo",
+            "url": "/in/kitchener-waterloo/"
+          },
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "url": "/in/kitchener-waterloo/manulife-red-labs/",
+          "accent": "manulife--red",
+          "media": [
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/640x360",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            },
+            {
+              "images": [
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                },
+                {
+                  "url": "http://placehold.it/320x180",
+                  "caption": "",
+                  "alt": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "MappedIn",
           "name_list": "MappedIn",
           "address": "305 King St. W",
