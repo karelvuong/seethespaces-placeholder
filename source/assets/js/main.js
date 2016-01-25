@@ -18,6 +18,10 @@ document.addEventListener("DOMContentLoaded", function(e) {
     });
 
 
+    $(".img--lazy").lazyload({
+      effect: "fadeIn"
+    });
+
     // Dock each letter as it arrives just below the docked header, pushing the
     // previous letter up the page.
     var letters = $('.block-list-letter-text');
