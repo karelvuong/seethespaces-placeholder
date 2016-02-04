@@ -1,0 +1,104 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+
+// Colours
+// -------------------------
+
+@each $color, $clr in $colors {
+  .accent-#{$color} {
+    .accent-bg { background-color: $clr; }
+    .accent-clr { color: $clr; }
+    .accent-clr-hover { &:hover { color: $clr; }}
+    .accent-clr-link {
+      color: $clr;
+
+      &:hover,
+      &:focus { color: rgba($clr, 0.9); }}
+    .accent-btn {
+      background-color: $clr;
+      border-color: $clr;
+      color: #fff;
+
+      &:hover {
+        background-color: darken($clr, 2%);
+        border-color: darken($clr, 2%);
+      }
+    }
+
+    .masthead { background-color: $clr; }
+  }
+
+  .clr-#{$color} {
+    color: $clr;
+
+    &--before::before { background-color: $clr; }
+    &--after::after { background-color: $clr; }
+  }
+
+  .clr-link-#{$color} {
+    color: $clr;
+
+    &:focus,
+    &:hover {
+      color: rgba($clr, 0.9);
+    }
+  }
+
+  .clr-fill-#{$color} {
+    fill: $clr;
+  }
+
+  .bg-#{$color} {
+    background-color: $clr;
+
+    &--before::before { background-color: $clr; }
+    &--after::after { background-color: $clr; }
+  }
+
+  .bg-#{$color}-ds {
+    background-color: darken(desaturate($clr, 10%), 10%);
+
+    &--before::before { background-color: darken(desaturate($clr, 10%), 10%); }
+    &--after::after { background-color: darken(desaturate($clr, 10%), 10%); }
+  }
+
+  .btn-#{$color} {
+    background-color: $clr;
+    border-color: $clr;
+    color: #ffffff;
+
+    &:focus,
+    &:hover {
+      background-color: darken($clr, 2%);
+      border-color: darken($clr, 2%);
+      color: #ffffff;
+    }
+  }
+
+  .btn-hollow-inverse-#{$color} {
+    border-color: #fff;
+    color: #fff;
+
+    &:focus,
+    &:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color: $clr;
+    }
+  }
+
+  .btn-inverse-#{$color} {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: $clr;
+
+    &:focus,
+    &:hover {
+      background-color: darken($clr, 2%);
+      border-color: darken($clr, 2%);
+      color: #ffffff;
+    }
+  }
+}

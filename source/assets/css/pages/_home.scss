@@ -1,0 +1,75 @@
+.page {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.block-hero {
+  display: table-cell;
+  padding: 48px 0;
+  text-align: center;
+  vertical-align: middle;
+
+  &-name,
+  &-title {
+    font-size: 40px;
+
+    & + .block-hero-subtitle {
+      margin-top: 12px;
+    }
+
+    & + .block-hero-address {
+      margin-top: 6px;
+    }
+  }
+
+  &-address,
+  &-subtitle {
+    font-size: 16px;
+
+    & + .block-hero-form,
+    & + .block-hero-body {
+      margin-top: 12px;
+    }
+
+    & + .block-hero-region {
+      margin-top: 6px;
+    }
+  }
+
+  &-region {
+
+  }
+
+  &-body {}
+
+  &-form {
+    &-label {
+      display: block;
+
+      & + .block-hero-form-input-group {
+        margin-top: 12px;
+      }
+    }
+
+    &-input {
+      float: left;
+      height: 40px;
+      min-width: 240px;
+
+      &-group {
+        display: inline-block;
+      }
+    }
+
+    &-btn {
+      height: 40px;
+
+      margin-left: -4px;
+    }
+
+    & + .block-hero-social {
+      margin-top: 12px;
+    }
+  }
+}
