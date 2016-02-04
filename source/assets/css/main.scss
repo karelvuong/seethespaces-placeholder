@@ -5,31 +5,16 @@
 @import "partials/grid";
 @import "partials/normalize";
 @import "partials/base";
-@import "partials/animations";
 
 // Utilities
 @import "utilities/colours";
-@import "utilities/images";
-@import "utilities/layout";
-@import "utilities/text";
 
 // Colours
 @import "functions/colours";
-
-// Lib
-@import "lib/zoom";
 
 // Elements
 @import "elements/buttons";
 @import "elements/forms";
 
 // Components
-@import "components/header";
-@import "components/footer";
-@import "components/block-hero";
-@import "components/block-related";
-@import "components/block-selection";
-@import "components/block-list";
-@import "components/media";
-@import "components/icons";
-@import "components/tabs";
+@import "pages/home";

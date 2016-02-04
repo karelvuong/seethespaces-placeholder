@@ -2,10 +2,7 @@
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
   <%= partial "_partials/head" %>
 
-  <body class="<%= page_classes %>">
+  <body class="page <%= page_classes %>">
     <%= yield %>
-
-    <%= partial "_partials/footer/main" %>
-    <%= partial "_partials/scripts" %>
   </body>
 </html>

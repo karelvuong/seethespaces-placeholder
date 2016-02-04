@@ -1,145 +1,25 @@
-<%= partial "_partials/blocks/hero" %>
-
-<%= partial "_partials/header/home" %>
-
-<section class="block-selection bg-lightgrey section--md section pad--sm--y">
-  <header class="block-selection-header">
-    <div class="container text--center">
-      <div class="row">
-        <div class="col-sm-12">
-          <ul class="block-selection-header-links list list--inline" role="tablist">
-            <li role="presentation" class="active"><a class="block-selection-header-link" href="#featured" aria-controls="home" role="tab" data-toggle="tab">Featured</a></li>
-            <li role="presentation"><a class="block-selection-header-link" href="#by-region" aria-controls="profile" role="tab" data-toggle="tab">By Region</a></li>
-            <li role="presentation"><a class="block-selection-header-link" href="#all" aria-controls="messages" role="tab" data-toggle="tab">All</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="block-selection-body">
-    <div class="container">
-      <div class="tab-content">
-        <%#
-        Featured
-        %>
-        <div role="tabpanel" class="tab-pane fade in active" id="featured">
-          <% data.featured.spaces.each_slice(2) do |row| %>
-          <div class="block-selection-body-row row">
-            <% row.each do |space| %>
-            <div class="col-sm--xs col-sm-6">
-              <a class="block-selection-body-item pad--lg--y pad--sm--x bg-<%= space.accent %> text--center" href="<%= space.url %>">
-                <h1 class="block-selection-body-item-name"><%= space.name %></h1>
-              </a>
-            </div>
-            <% end %>
-          </div>
-          <% end %>
-        </div>
-
-        <%#
-        By Region
-        %>
-        <div role="tabpanel" class="tab-pane fade" id="by-region">
-          <div class="row">
-            <% data.spaces_regional.regions.each_slice(1) do |col| %>
-            <div class="col-sm-3">
-              <% col.each do |section| %>
-              <div class="section--xs section">
-                <p class="block-selection-heading"><%= section.name %></p>
-                <a class="block-selection-link" href="<%= section.url %>"><img class="icon icon--left" src="<%= images_dir %>/map.svg" width="10" height="10">View map</a>
-
-                <% section.spaces.each do |space| %>
-                <ul class="block-selection-list list list--unstyled accent-<%= space.accent %>">
-                  <li><a class="accent-clr-hover" href="<%= space.url %>"><%= space.name %></a></li>
-                </ul>
-                <% end %>
-              </div>
-              <% end %>
-            </div>
-            <% end %>
-          </div>
-        </div>
-
-        <%#
-        All
-        %>
-        <div role="tabpanel" class="tab-pane fade" id="all">
-          <div class="row">
-            <% data.spaces.letters.each_slice(4) do |col| %>
-            <div class="col-sm-3">
-              <% col.each do |section| %>
-              <div class="section--xs section">
-                <p class="block-selection-heading"><%= section.letter %></p>
-
-                <% section.spaces.each do |space| %>
-                <ul class="block-selection-list list list--unstyled accent-<%= space.accent %>">
-                  <li><a class="accent-clr-hover" href="<%= space.url %>"><%= space.name_list %></a></li>
-                </ul>
-                <% end %>
-              </div>
-              <% end %>
-            </div>
-            <% end %>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="block-list section--md section">
+<section class="block-hero text--center">
   <div class="container">
-    <% data.spaces.letters.each do |section| %>
-    <div id="<%= section.letter %>" class="block-list-section">
-      <div class="block-list-letter">
-        <p class="block-list-letter-text"><%= section.letter %></p>
-      </div>
+    <div class="col-sm-8 col-sm-offset-2">
+      <h1 class="block-hero-title">Spaces</h1>
 
-      <div class="block-list-items">
-        <% section.spaces.each do |space| %>
-        <div class="block-list-item accent-<%= space.accent %>">
-          <div class="row">
-            <div class="col-lg-4">
-              <header class="block-list-item-header">
-                <a class="block-list-item-header-name accent-clr-hover" href="<%= space.url %>"><%= space.name %></a>
-                <p class="block-list-item-header-address"><%= space.address %></p>
-                <p class="block-list-item-header-region"><img class="icon icon--left" src="<%= images_dir %>/map.svg" width="10" height="10"> <a href="<%= space.region.url %>"><%= space.region.name %></a></p>
-              </header>
+      <p class="block-hero-subtitle">Showcasing the best tech offices and spaces in<br class="hidden-xs"> Toronto, Kitchener-Waterloo, Montreal, Ottawa and Vancouver.</p>
 
-              <div class="block-list-item-body">
-                <p><%= space.description %></p>
+      <form class="block-hero-form" action="//karel.us5.list-manage.com/subscribe/post?u=453afd4574efb15909950c60d&amp;id=f4ab8eace7" method="POST" target="_blank" novalidate>
+        <label class="block-hero-form-label">Be the first to find out when Spaces launches.</label>
 
-                <p class="text--right visible-xs">
-                  <a class="btn btn--lg accent-btn" href="#">See the space</a>
-                </p>
-              </div>
-            </div>
-
-            <div class="media col-lg-8">
-              <% space.media.each do |media, i| %>
-              <div class="media-row row">
-                <% media.images.length.times do |column| %>
-                <div class="col-sm--xs col-sm-<%= 12 / media.images.length %>">
-                  <div class="media-item">
-                    <img class="img--full" src="<%= media.images[column].url %>" alt="" />
-                  </div>
-                </div>
-                <% end %>
-              </div>
-              <% end %>
-
-              <div class="row">
-                <div class="col-sm-12 text--right">
-                  <a class="media-link accent-clr-link" href="<%= space.url %>">See <%= (space.name.end_with?("s") ? space.name_list + "'" : space.name_list + "'s") %> entire space &rarr;</a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="block-hero-form-input-group">
+          <input id="mce-EMAIL" class="block-hero-form-input" type="email" name="EMAIL" value="" placeholder="email.address@domain.ca">
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_453afd4574efb15909950c60d_f4ab8eace7" tabindex="-1" value=""></div>
+          <input class="block-hero-form-btn btn-black btn" type="submit" name="name" value="Subscribe">
         </div>
-        <% end %>
-      </div>
+      </form>
+
+      <ul class="block-hero-social list list--inline list--inline--spacious">
+        <li><a class="clr-link-twitter--blue" href="https://twitter.com/seethespaces"><img class="" src="<%= images_dir %>/icon-twitter.svg" width="18" height="18"></a></li>
+        <li><a class="clr-link-facebook--blue" href="https://facebook.com/seethespaces"><img class="" src="<%= images_dir %>/icon-facebook.svg" width="18" height="18"></a></li>
+        <li><a class="clr-link-twitter--blue" href="https://instagram.com/seethespaces"><img class="" src="<%= images_dir %>/icon-instagram.svg" width="18" height="18"></a></li>
+      </ul>
     </div>
-    <% end %>
   </div>
 </section>
